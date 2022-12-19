@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+@media(max-width:500px){
+    
+}
+.ecran{
+    width: 100%;
+    height: 100vh;
+    background-image: url(work_img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carte{
+    width: 90%;
+    max-width: 440px;
+    color: rb(252, 248, 248);
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:rgb(245, 247, 243) ;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+
+}
+.carte nav{
+    background:rgb(235, 231, 228) ;
+    margin-left: 40%;
+    box-sizing: content-box;
+    border-radius: 10px;
+    box-shadow:5px 7px 16px ;
+}
+.carte nav .nav{
+    display: inline-block;
+    margin-left: 50%;
+    margin: 10px 5px;
+    font: bold;
+}
+.carte nav .nav:hover{
+    background: orange;
+    font-size:x-large;
+}
+.carte img{
+    clip-path: ellipse(50% 50%);
+    width: 150px;
+    border-radius: 50%;
+}
+.carte h2{
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.carte p{
+    font-size: 20px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+.carte .reseau img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+.bouton{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    background: rgb(197, 22, 22);
+    color: rgb(187, 181, 178);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+.bouton img{
+    width: 30px;
+}
+.skills_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: auto;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+}
+.skills_bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:aqua;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: -10;
+}
+.skills{
+    width: 50%;
+}
+.skill_clang{
+    width:45% ;
+}
+.skill_html{
+    width: 90%;
+}
+.skill_css{
+    width:60% ;
+}
+.skill_js{
+    width:10% ;
+}
+.skill_java{
+    width:45% ;
+}
+.skill_sql{
+    width: 60%;
+}
+.skill_python{
+    width:70% ;
+}
+.skill_xml{
+    width:40% ;
+}
+.skill_uxui{
+    width:60% ;
+}
